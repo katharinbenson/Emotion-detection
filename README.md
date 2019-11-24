@@ -20,7 +20,7 @@ I used the [Face expression recognition dataset](https://www.kaggle.com/jonathan
 The real time video processing was bulit in the following way:
 
 1. Launch the webcam
-2. Identify the face by haar ascade
+2. Identify the face by haar cascade
 3. Zoom the model and find the roi(region of intrest), which is a face in this case.
 3. Dimension the face to 48 * 48 pixels.
 4. Make a prediction on the face using our pre-trained model.
